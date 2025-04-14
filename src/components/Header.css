@@ -69,7 +69,8 @@
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
-  background-color: #fff;
+  background-color: #ffffff;
+  color: #111111; /* ✅ Added this line to ensure visible text */
   padding: 30px 40px;
   border-radius: 12px;
   width: 90%;
@@ -90,12 +91,13 @@
 .modal h2 {
   font-size: 1.6rem;
   margin-bottom: 15px;
-  color: #222;
+  color: #222222;
 }
 
 .modal p {
   font-size: 1rem;
   margin-bottom: 20px;
+  color: #333333; /* ✅ Ensure readability on white */
 }
 
 .package-options {
@@ -117,6 +119,7 @@
   font-weight: 500;
   cursor: pointer;
   transition: background-color 0.3s ease;
+  color: #111111; /* ✅ Text inside radio visible */
 }
 
 .package-option:hover {
@@ -153,10 +156,10 @@
 }
 
 .modal-buttons button:last-child {
-  background: linear-gradient(90deg, #ff9900, #ff5e00);;
+  background: linear-gradient(90deg, #ff9900, #ff5e00);
   color: white;
 }
 
 .modal-buttons button:last-child:hover {
-  background: linear-gradient(90deg, #ff9900, #ff5e00);
+  background: linear-gradient(90deg, #ffae42, #ff7320);
 }
